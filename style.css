@@ -271,12 +271,18 @@ section {
 
 #about {
   position: relative;
+  height: 95vh;
 }
 
 .about-containers {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+}
+
+.text-container {
+  font-size: 1.5rem;
+  
 }
 
 .about-details-container {
@@ -289,10 +295,6 @@ section {
   display: flex;
 }
 
-.about-pic {
-  border-radius: 2rem;
-}
-
 .arrow {
   position: absolute;
   right: -5rem;
@@ -300,7 +302,7 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
+  padding: 2rem;
   flex: 1;
   background: white;
   border-radius: 2rem;
@@ -311,7 +313,7 @@ section {
 
 .section-container {
   gap: 4rem;
-  height: 80%;
+  height: 90%;
 }
 
 .section__pic-container {
@@ -320,7 +322,7 @@ section {
   margin: auto 0;
 }
 
-/* EDUCATION SECTION */
+/* TECHNICAL SKILLS SECTION */
 
 
 #education {
